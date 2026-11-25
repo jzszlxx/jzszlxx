@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="昱满天下 jzszlxx 认知觉醒能量站">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F2EA"/>
+      <stop offset="0.55" stop-color="#F2EADD"/>
+      <stop offset="1" stop-color="#E7DCCB"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A89781"/>
+      <stop offset="1" stop-color="#8E7E68"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect x="0" y="0" width="12" height="320" fill="#2E2A26"/>
+  <rect x="0" y="314" width="1200" height="6" fill="#2E2A26"/>
+
+  <!-- 右侧装饰：同心圆 -->
+  <circle cx="1010" cy="160" r="196" fill="#FFFFFF" opacity="0.34"/>
+  <circle cx="1010" cy="160" r="150" fill="#FFFFFF" opacity="0.34"/>
+
+  <!-- 猫 -->
+  <g transform="translate(1010 168)">
+    <!-- 耳朵 -->
+    <path d="M-96 -46 L-60 -132 L-12 -50 Z" fill="url(#fur)"/>
+    <path d="M-72 -54 L-60 -104 L-28 -56 Z" fill="#D9A6A0"/>
+    <path d="M96 -46 L60 -132 L12 -50 Z" fill="url(#fur)"/>
+    <path d="M72 -54 L60 -104 L28 -56 Z" fill="#D9A6A0"/>
+    <!-- 头 -->
+    <ellipse cx="0" cy="0" rx="104" ry="94" fill="url(#fur)"/>
+    <!-- 额头条纹 -->
+    <g stroke="#6E5F4C" stroke-width="7" stroke-linecap="round">
+      <line x1="-20" y1="-78" x2="-20" y2="-52"/>
+      <line x1="0" y1="-84" x2="0" y2="-54"/>
+      <line x1="20" y1="-78" x2="20" y2="-52"/>
+    </g>
+    <!-- 嘴周浅色 -->
+    <ellipse cx="0" cy="34" rx="46" ry="34" fill="#F3EEE5"/>
+    <!-- 眼睛 -->
+    <ellipse cx="-40" cy="-2" rx="19" ry="25" fill="#7BB93F"/>
+    <ellipse cx="40" cy="-2" rx="19" ry="25" fill="#7BB93F"/>
+    <ellipse cx="-40" cy="-2" rx="7" ry="13" fill="#221F1C"/>
+    <ellipse cx="40" cy="-2" rx="7" ry="13" fill="#221F1C"/>
+    <circle cx="-45" cy="-12" r="5" fill="#F7FBF2"/>
+    <circle cx="35" cy="-12" r="5" fill="#F7FBF2"/>
+    <!-- 鼻子与嘴 -->
+    <path d="M-8 26 L8 26 L0 36 Z" fill="#D9A6A0"/>
+    <path d="M0 36 L0 42" stroke="#221F1C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-14 42 q7 9 14 0 q7 9 14 0" stroke="#221F1C" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- 胡须 -->
+    <g stroke="#221F1C" stroke-width="2.4" stroke-linecap="round" opacity="0.72">
+      <line x1="-52" y1="30" x2="-96" y2="20"/>
+      <line x1="-52" y1="40" x2="-98" y2="46"/>
+      <line x1="52" y1="30" x2="96" y2="20"/>
+      <line x1="52" y1="40" x2="98" y2="46"/>
+    </g>
+  </g>
+
+  <!-- 文字 -->
+  <text x="68" y="128" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="62" font-weight="700" fill="#262220">昱满天下</text>
+  <text x="70" y="176" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="25" fill="#7C6F60">jzszlxx · 认知觉醒能量站</text>
+  <rect x="70" y="204" width="66" height="4" fill="#C4563F"/>
+  <text x="70" y="248" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="21" fill="#3A342E">桌面工具 / AI Agent 开发</text>
+  <text x="70" y="282" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#8E8071">C# · Python · 把想法做成能双击运行的东西</text>
+</svg>
