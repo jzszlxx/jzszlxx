@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" alt="昱满天下 · jzszlxx" width="100%" />
+<img src="assets/banner.png" alt="昱满天下 · jzszlxx" width="100%" />
 
 </div>
 
@@ -12,14 +12,14 @@
 
 <br />
 
-<img src="./tech.svg" alt="技术栈" width="100%" />
+<img src="assets/tech.png" alt="技术栈" width="100%" />
 
 <br />
 
 ### 在做的项目
 
 <a href="https://github.com/jzszlxx/-">
-  <img src="./project-flatcat.svg" alt="FlatCat 项目" width="100%" />
+  <img src="assets/project-flatcat.png" alt="FlatCat 项目" width="100%" />
 </a>
 
 FlatCat 的几个技术点，做桌面端的朋友可能用得上：
@@ -40,4 +40,4 @@ FlatCat 的几个技术点，做桌面端的朋友可能用得上：
 
 <br />
 
-<img src="./footer.svg" alt="页脚" width="100%" />
+<img src="assets/footer.png" alt="页脚" width="100%" />
