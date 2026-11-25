@@ -29,12 +29,39 @@
   </g>
 
   <g transform="translate(1010 76)">
-    <circle cx="0" cy="0" r="44" fill="#FFFFFF" opacity="0.85"/>
-    <ellipse cx="0" cy="4" rx="24" ry="21" fill="#9C8D7A"/>
-    <path d="M-22 -12 L-15 -34 L-5 -14 Z" fill="#9C8D7A"/>
-    <path d="M22 -12 L15 -34 L5 -14 Z" fill="#9C8D7A"/>
-    <circle cx="-9" cy="2" r="4" fill="#7BB93F"/>
-    <circle cx="9" cy="2" r="4" fill="#7BB93F"/>
-    <path d="M-3 11 L3 11 L0 15 Z" fill="#D9A6A0"/>
+    <circle cx="0" cy="0" r="46" fill="#FFFFFF" opacity="0.9"/>
+    <!-- 耳朵 -->
+    <path d="M-20 -6 L-13 -30 L-2 -9 Z" fill="#9C8D7A"/>
+    <path d="M-15 -10 L-12.5 -23 L-6.5 -11 Z" fill="#D9A6A0"/>
+    <path d="M20 -6 L13 -30 L2 -9 Z" fill="#9C8D7A"/>
+    <path d="M15 -10 L12.5 -23 L6.5 -11 Z" fill="#D9A6A0"/>
+    <!-- 头 -->
+    <ellipse cx="0" cy="3" rx="23" ry="20.5" fill="#9C8D7A"/>
+    <!-- 额纹 -->
+    <g stroke="#6B5C49" stroke-width="2" stroke-linecap="round">
+      <line x1="-5" y1="-15" x2="-5" y2="-9"/>
+      <line x1="0" y1="-16.5" x2="0" y2="-9.5"/>
+      <line x1="5" y1="-15" x2="5" y2="-9"/>
+    </g>
+    <!-- 白口鼻 -->
+    <ellipse cx="0" cy="10" rx="10.5" ry="8" fill="#F3EEE5"/>
+    <!-- 眼睛 -->
+    <ellipse cx="-9" cy="0" rx="4.6" ry="5.8" fill="#7BB93F"/>
+    <ellipse cx="-9" cy="0" rx="1.7" ry="3.2" fill="#221F1C"/>
+    <circle cx="-10.6" cy="-2" r="1.3" fill="#FAFDF5"/>
+    <ellipse cx="9" cy="0" rx="4.6" ry="5.8" fill="#7BB93F"/>
+    <ellipse cx="9" cy="0" rx="1.7" ry="3.2" fill="#221F1C"/>
+    <circle cx="7.4" cy="-2" r="1.3" fill="#FAFDF5"/>
+    <!-- 鼻子与嘴 -->
+    <path d="M-2.4 8 L2.4 8 L0 11.4 Z" fill="#D9A6A0"/>
+    <path d="M0 11.4 L0 13.6" stroke="#221F1C" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M-4.6 13.6 q2.3 3 4.6 0 q2.3 3 4.6 0" stroke="#221F1C" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <!-- 胡须 -->
+    <g stroke="#221F1C" stroke-width="1.1" stroke-linecap="round" opacity="0.55">
+      <line x1="-15" y1="7" x2="-26" y2="3.6"/>
+      <line x1="-15" y1="10.6" x2="-26.5" y2="13"/>
+      <line x1="15" y1="7" x2="26" y2="3.6"/>
+      <line x1="15" y1="10.6" x2="26.5" y2="13"/>
+    </g>
   </g>
 </svg>

@@ -1,65 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="昱满天下 jzszlxx 认知觉醒能量站">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="昱满天下 jzszlxx 认知觉醒能量站">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F7F2EA"/>
-      <stop offset="0.55" stop-color="#F2EADD"/>
-      <stop offset="1" stop-color="#E7DCCB"/>
+      <stop offset="0" stop-color="#F8F4ED"/>
+      <stop offset="0.5" stop-color="#F2EADD"/>
+      <stop offset="1" stop-color="#E6DAC8"/>
     </linearGradient>
     <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#A89781"/>
-      <stop offset="1" stop-color="#8E7E68"/>
+      <stop offset="0" stop-color="#AA9983"/>
+      <stop offset="1" stop-color="#8B7A64"/>
     </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#2E2A26" opacity="0.10"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect x="0" y="0" width="12" height="320" fill="#2E2A26"/>
-  <rect x="0" y="314" width="1200" height="6" fill="#2E2A26"/>
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#dots)"/>
+  <rect x="0" y="0" width="12" height="340" fill="#2E2A26"/>
+  <rect x="0" y="334" width="1200" height="6" fill="#2E2A26"/>
 
-  <!-- 右侧装饰：同心圆 -->
-  <circle cx="1010" cy="160" r="196" fill="#FFFFFF" opacity="0.34"/>
-  <circle cx="1010" cy="160" r="150" fill="#FFFFFF" opacity="0.34"/>
+  <!-- 右侧光晕 -->
+  <circle cx="1006" cy="170" r="212" fill="#FFFFFF" opacity="0.30"/>
+  <circle cx="1006" cy="170" r="158" fill="#FFFFFF" opacity="0.34"/>
+  <circle cx="1006" cy="170" r="108" fill="#FFFFFF" opacity="0.28"/>
 
   <!-- 猫 -->
-  <g transform="translate(1010 168)">
-    <!-- 耳朵 -->
-    <path d="M-96 -46 L-60 -132 L-12 -50 Z" fill="url(#fur)"/>
-    <path d="M-72 -54 L-60 -104 L-28 -56 Z" fill="#D9A6A0"/>
-    <path d="M96 -46 L60 -132 L12 -50 Z" fill="url(#fur)"/>
-    <path d="M72 -54 L60 -104 L28 -56 Z" fill="#D9A6A0"/>
-    <!-- 头 -->
-    <ellipse cx="0" cy="0" rx="104" ry="94" fill="url(#fur)"/>
-    <!-- 额头条纹 -->
-    <g stroke="#6E5F4C" stroke-width="7" stroke-linecap="round">
-      <line x1="-20" y1="-78" x2="-20" y2="-52"/>
-      <line x1="0" y1="-84" x2="0" y2="-54"/>
-      <line x1="20" y1="-78" x2="20" y2="-52"/>
+  <g transform="translate(1006 178)">
+    <path d="M-102 -50 L-64 -142 L-14 -54 Z" fill="url(#fur)"/>
+    <path d="M-78 -58 L-64 -112 L-30 -60 Z" fill="#D9A6A0"/>
+    <path d="M102 -50 L64 -142 L14 -54 Z" fill="url(#fur)"/>
+    <path d="M78 -58 L64 -112 L30 -60 Z" fill="#D9A6A0"/>
+    <ellipse cx="0" cy="0" rx="110" ry="100" fill="url(#fur)"/>
+    <g stroke="#6B5C49" stroke-width="7" stroke-linecap="round">
+      <line x1="-22" y1="-84" x2="-22" y2="-56"/>
+      <line x1="0" y1="-90" x2="0" y2="-58"/>
+      <line x1="22" y1="-84" x2="22" y2="-56"/>
     </g>
-    <!-- 嘴周浅色 -->
-    <ellipse cx="0" cy="34" rx="46" ry="34" fill="#F3EEE5"/>
-    <!-- 眼睛 -->
-    <ellipse cx="-40" cy="-2" rx="19" ry="25" fill="#7BB93F"/>
-    <ellipse cx="40" cy="-2" rx="19" ry="25" fill="#7BB93F"/>
-    <ellipse cx="-40" cy="-2" rx="7" ry="13" fill="#221F1C"/>
-    <ellipse cx="40" cy="-2" rx="7" ry="13" fill="#221F1C"/>
-    <circle cx="-45" cy="-12" r="5" fill="#F7FBF2"/>
-    <circle cx="35" cy="-12" r="5" fill="#F7FBF2"/>
-    <!-- 鼻子与嘴 -->
-    <path d="M-8 26 L8 26 L0 36 Z" fill="#D9A6A0"/>
-    <path d="M0 36 L0 42" stroke="#221F1C" stroke-width="3" stroke-linecap="round"/>
-    <path d="M-14 42 q7 9 14 0 q7 9 14 0" stroke="#221F1C" stroke-width="3" fill="none" stroke-linecap="round"/>
-    <!-- 胡须 -->
-    <g stroke="#221F1C" stroke-width="2.4" stroke-linecap="round" opacity="0.72">
-      <line x1="-52" y1="30" x2="-96" y2="20"/>
-      <line x1="-52" y1="40" x2="-98" y2="46"/>
-      <line x1="52" y1="30" x2="96" y2="20"/>
-      <line x1="52" y1="40" x2="98" y2="46"/>
+    <ellipse cx="0" cy="38" rx="48" ry="36" fill="#F3EEE5"/>
+    <ellipse cx="-42" cy="-2" rx="20" ry="26" fill="#7BB93F"/>
+    <ellipse cx="42" cy="-2" rx="20" ry="26" fill="#7BB93F"/>
+    <ellipse cx="-42" cy="-2" rx="7" ry="14" fill="#221F1C"/>
+    <ellipse cx="42" cy="-2" rx="7" ry="14" fill="#221F1C"/>
+    <circle cx="-47" cy="-13" r="5" fill="#FAFDF5"/>
+    <circle cx="37" cy="-13" r="5" fill="#FAFDF5"/>
+    <path d="M-9 30 L9 30 L0 40 Z" fill="#D9A6A0"/>
+    <path d="M0 40 L0 47" stroke="#221F1C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-15 47 q7.5 9 15 0 q7.5 9 15 0" stroke="#221F1C" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <g stroke="#221F1C" stroke-width="2.4" stroke-linecap="round" opacity="0.7">
+      <line x1="-56" y1="32" x2="-102" y2="22"/>
+      <line x1="-56" y1="43" x2="-104" y2="50"/>
+      <line x1="56" y1="32" x2="102" y2="22"/>
+      <line x1="56" y1="43" x2="104" y2="50"/>
     </g>
   </g>
 
   <!-- 文字 -->
-  <text x="68" y="128" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="62" font-weight="700" fill="#262220">昱满天下</text>
-  <text x="70" y="176" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="25" fill="#7C6F60">jzszlxx · 认知觉醒能量站</text>
-  <rect x="70" y="204" width="66" height="4" fill="#C4563F"/>
-  <text x="70" y="248" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="21" fill="#3A342E">桌面工具 / AI Agent 开发</text>
-  <text x="70" y="282" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#8E8071">C# · Python · 把想法做成能双击运行的东西</text>
+  <text x="68" y="132" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="66" font-weight="700" fill="#262220">昱满天下</text>
+  <text x="70" y="182" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="26" fill="#7C6F60">jzszlxx · 认知觉醒能量站</text>
+
+  <rect x="70" y="206" width="72" height="4" fill="#C4563F"/>
+
+  <text x="70" y="250" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="21" fill="#3A342E">把想法做成能双击运行的东西</text>
+  <text x="70" y="284" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="17" fill="#8E8071">桌面应用 · AI Agent · 工具与投资复盘</text>
+
+  <!-- 底部标签 -->
+  <g font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="15">
+    <rect x="70" y="296" width="132" height="28" rx="14" fill="#262220"/>
+    <text x="136" y="315" text-anchor="middle" fill="#F7F2EA">C# / WinForms</text>
+    <rect x="212" y="296" width="78" height="28" rx="14" fill="#FFFFFF" stroke="#D3C6B6" stroke-width="1.4"/>
+    <text x="251" y="315" text-anchor="middle" fill="#262220">Python</text>
+    <rect x="300" y="296" width="100" height="28" rx="14" fill="#FFFFFF" stroke="#D3C6B6" stroke-width="1.4"/>
+    <text x="350" y="315" text-anchor="middle" fill="#262220">AI Agent</text>
+  </g>
 </svg>
